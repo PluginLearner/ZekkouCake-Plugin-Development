@@ -1,0 +1,10 @@
+name: ExplosivePickaxe
+version: 0.0.1
+api: [1.0.0]
+main: explosivepick\Main
+load: POSTWORLD
+commands:
+ explosive:
+ description: Set a explosive radius to your pickaxe defualt= 2
+ usage:/explosive <Radius>
+ aliases: [er]

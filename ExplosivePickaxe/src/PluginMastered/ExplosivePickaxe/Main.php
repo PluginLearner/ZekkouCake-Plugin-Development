@@ -1,1 +1,4 @@
-Working in a sec pls stay patient
+namespace ExplosivePickaxe;
+
+use pocketmine\command\Command
+use pocketmine

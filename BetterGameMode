@@ -1,0 +1,31 @@
+name:BetterGameMode
+main:PluginMastered\BetterGameMode\BetterGameMode
+version:0.0.1
+description:Adds easier gamemode change so admins or mods can quickly change gamemode
+commands:
+    creative:
+            usage: /creative
+            description:Lets you switch to creative
+    survival:
+            usage: /survival
+            description Lets you switch to survival
+    adventure:
+             usage: /adventure
+             description: Lets you switch to adventure
+    spectator:
+             usage: /spectator
+             descriptions
+permisions:
+    bettergamemode.creative
+        default: op
+        description: sets your gamemode to creative
+    bettergamemode.survival
+        default: op
+        description: sets your gamemode to survival
+bettergamemode.adventure
+        default: op
+        description: sets your gamemode to adventure
+bettergamemode.spectator
+        default: op
+        description: sets your gamemode to spectator
+

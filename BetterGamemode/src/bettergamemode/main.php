@@ -1,6 +1,6 @@
 <?php
 
-namespace PluginMastered\bettergamemode\BetterGamemode;
+namespace bettergamemode\BetterGamemode;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\CommandSender;

@@ -1,0 +1,21 @@
+name: BetterGamemode
+main: bettergamemode\BetterGamemode
+version: 0.1
+api: [1.0.0]
+load: POSTWORLD
+  commands:
+    creative:
+      permission: bettergammode.creative
+      description: Switches your gamemode to creative
+      usage: /creative
+    survival:
+      permision: bettergamemode.survival
+      description: switches your gamemode to survival
+      usage /survival
+    permissions:
+      bettergamemode.creative:
+        default: op
+        children:
+      bettergamemode.survival:
+        default: op
+        children:
